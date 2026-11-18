@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/option.xsd">
+	<import>
+		<categories>
+			<category name="cs2admin"/>
+			<category name="cs2admin.general">
+				<parent>cs2admin</parent>
+			</category>
+			<category name="cs2admin.db">
+				<parent>cs2admin</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="cs2admin_steam_option">
+				<categoryname>cs2admin.general</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>steamID</defaultvalue>
+			</option>
+			<option name="cs2admin_db_host">
+				<categoryname>cs2admin.db</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>127.0.0.1</defaultvalue>
+			</option>
+			<option name="cs2admin_db_port">
+				<categoryname>cs2admin.db</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>3306</defaultvalue>
+			</option>
+			<option name="cs2admin_db_name">
+				<categoryname>cs2admin.db</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>cs2_simpleadmin</defaultvalue>
+			</option>
+			<option name="cs2admin_db_user">
+				<categoryname>cs2admin.db</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="cs2admin_db_password">
+				<categoryname>cs2admin.db</categoryname>
+				<optiontype>password</optiontype>
+			</option>
+		</options>
+	</import>
+</data>

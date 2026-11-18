@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="en">
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.cs2admin"><![CDATA[CS2 Admin Sync]]></item>
+		<item name="wcf.acp.menu.link.cs2admin.groups"><![CDATA[Groups & Permissions]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.cs2admin"><![CDATA[CS2 Admin Sync]]></item>
+		<item name="wcf.acp.option.category.cs2admin.general"><![CDATA[General]]></item>
+		<item name="wcf.acp.option.category.cs2admin.db"><![CDATA[SimpleAdmin Database]]></item>
+		<item name="wcf.acp.option.cs2admin_steam_option"><![CDATA[Steam ID profile field]]></item>
+		<item name="wcf.acp.option.cs2admin_steam_option.description"><![CDATA[Name (optionName) of the user profile field that holds the Steam ID.]]></item>
+		<item name="wcf.acp.option.cs2admin_db_host"><![CDATA[Database host]]></item>
+		<item name="wcf.acp.option.cs2admin_db_port"><![CDATA[Database port]]></item>
+		<item name="wcf.acp.option.cs2admin_db_name"><![CDATA[Database name]]></item>
+		<item name="wcf.acp.option.cs2admin_db_user"><![CDATA[Database user]]></item>
+		<item name="wcf.acp.option.cs2admin_db_password"><![CDATA[Database password]]></item>
+		<item name="wcf.acp.option.cs2admin_db_password.description"><![CDATA[Tip: use a dedicated DB user limited to the SimpleAdmin database.]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.cs2admin.canManage"><![CDATA[Can manage CS2 admin sync (grants server permissions!)]]></item>
+	</category>
+	<category name="wcf.acp.cs2admin">
+		<item name="wcf.acp.cs2admin.groups"><![CDATA[CS2 Groups & Permissions]]></item>
+		<item name="wcf.acp.cs2admin.info"><![CDATA[Only enabled groups receive permissions on the CS2 server. Members of several groups get the settings of the group with the highest priority. Members without a valid Steam ID and banned users are skipped.]]></item>
+		<item name="wcf.acp.cs2admin.enabled"><![CDATA[Group receives server permissions]]></item>
+		<item name="wcf.acp.cs2admin.priority"><![CDATA[Priority]]></item>
+		<item name="wcf.acp.cs2admin.priority.description"><![CDATA[Higher wins for members of several groups]]></item>
+		<item name="wcf.acp.cs2admin.immunity"><![CDATA[Immunity]]></item>
+		<item name="wcf.acp.cs2admin.flags"><![CDATA[Permissions (flags)]]></item>
+		<item name="wcf.acp.cs2admin.saveAndSync"><![CDATA[Save and synchronize now]]></item>
+		<item name="wcf.acp.cs2admin.sync.success"><![CDATA[{#$admins} admins synchronized, {#$skipped} skipped (no valid Steam ID).]]></item>
+	</category>
+</language>

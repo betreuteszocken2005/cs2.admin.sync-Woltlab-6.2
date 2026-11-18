@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/cronjob.xsd">
+	<import>
+		<cronjob name="com.ddbmaster.cs2.admin.sync">
+			<classname>wcf\system\cronjob\Cs2AdminSyncCronjob</classname>
+			<description>CS2 SimpleAdmin Sync</description>
+			<description language="de">CS2-SimpleAdmin-Admins synchronisieren</description>
+			<startminute>*/10</startminute>
+			<starthour>*</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+		</cronjob>
+	</import>
+</data>
