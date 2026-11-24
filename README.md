@@ -34,6 +34,26 @@ Alles wird im ACP eingestellt, es muss kein Code angepasst werden.
 4. **Konfiguration → CS2 Admin-Sync → Gruppen & Rechte:** Gruppen aktivieren und Rechte wählen.
 5. Auf dem Server nach dem Sync `css_reloadadmins` ausführen oder die Map wechseln, damit SimpleAdmin die Änderungen übernimmt.
 
+## Bilder ansicht
+CS2 Admin-Sync Einstellungen
+<img width="820" height="437" alt="image" src="https://github.com/user-attachments/assets/89c30f6a-c00c-4e50-877c-e7652fa52bb8" />
+
+<img width="1526" height="833" alt="image" src="https://github.com/user-attachments/assets/74f801a2-635d-4880-badb-97377bd82a46" />
+
+<img width="1529" height="830" alt="image" src="https://github.com/user-attachments/assets/5e5c0c97-9681-4d4d-bfe3-b527c055e62a" />
+
+Gruppen erstellen
+
+<img width="1532" height="835" alt="image" src="https://github.com/user-attachments/assets/8daff06e-3247-4e70-bce6-20223867afa0" />
+
+<img width="1523" height="842" alt="image" src="https://github.com/user-attachments/assets/8113a728-aec4-49c1-a666-43c42718be1d" />
+Gruppen Zuordnen
+
+<img width="1532" height="833" alt="image" src="https://github.com/user-attachments/assets/2dc3f51c-9fff-4fdd-a2ac-d96f6fdd2b01" />
+
+<img width="1532" height="863" alt="image" src="https://github.com/user-attachments/assets/67f5b6d1-5fe2-47d7-b27a-d97362a60976" />
+
+
 ## Funktionsweise
 
 Bei jedem Sync passiert Folgendes:
